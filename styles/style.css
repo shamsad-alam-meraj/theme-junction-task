@@ -115,12 +115,12 @@ body {
 }
 .stats-container {
   background-color: #f7f7f7;
-  
 }
 .stat-item {
-  position: relative; 
+  position: relative;
   text-align: center;
   border-right: 1px solid #ced7e0;
+  padding-bottom: 15px;
 }
 .stat-item:last-child {
   border-right: none;
@@ -133,9 +133,9 @@ body {
 .stat-text {
   font-size: 1rem;
   color: #364052;
-  margin-top: 0.5rem;
+  line-height: 0;
+  margin-top: 2px;
 }
-
 
 .stat-item::after {
   content: "";
