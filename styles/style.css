@@ -83,3 +83,30 @@ body {
   border-radius: 50px;
   padding: 20px 5px;
 }
+
+.feature-card {
+  border: 1px solid #CED7E0;
+  padding: 20px 20px 0px 20px;
+  transition: box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
