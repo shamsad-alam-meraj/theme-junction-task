@@ -152,3 +152,25 @@ body {
 .stat-item:last-child::after {
   display: none;
 }
+.banner-section {
+  position: relative;
+  height: 100vh;
+  background: url("/images/skill_bg.png") no-repeat center center/cover;
+}
+.overlay-content {
+  background: rgba(1, 1, 1, 0.1);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 525px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  backdrop-filter: blur(10px);
+}
+.progress {
+  height: 10px;
+}
+.progress-bar {
+  background-color: #007bff;
+}
