@@ -19,7 +19,7 @@ body {
   position: relative;
   padding: 60px 60px 0px 60px;
   display: inline-block;
-  border-radius: 0 0 0 0; 
+  border-radius: 0 0 0 0;
   overflow: hidden;
 }
 .hero-section:after {
@@ -85,7 +85,7 @@ body {
 }
 
 .feature-card {
-  border: 1px solid #CED7E0;
+  border: 1px solid #ced7e0;
   padding: 20px 20px 0px 20px;
   transition: box-shadow 0.3s ease;
   height: 100%;
@@ -109,4 +109,7 @@ body {
 .feature-description {
   font-size: 0.9rem;
   color: #6c757d;
+}
+.round-div {
+  border-radius: 0 0 25% 0;
 }
