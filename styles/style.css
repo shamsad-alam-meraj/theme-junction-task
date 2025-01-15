@@ -113,3 +113,42 @@ body {
 .round-div {
   border-radius: 0 0 25% 0;
 }
+.stats-container {
+  background-color: #f7f7f7;
+  
+}
+.stat-item {
+  position: relative; 
+  text-align: center;
+  border-right: 1px solid #ced7e0;
+}
+.stat-item:last-child {
+  border-right: none;
+}
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #051229;
+}
+.stat-text {
+  font-size: 1rem;
+  color: #364052;
+  margin-top: 0.5rem;
+}
+
+
+.stat-item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  height: 8px;
+  width: 8px;
+  border: 2px solid #0075ff;
+  border-radius: 50%;
+}
+
+.stat-item:last-child::after {
+  display: none;
+}
