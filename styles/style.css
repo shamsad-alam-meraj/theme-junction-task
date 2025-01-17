@@ -197,11 +197,41 @@ body {
   .service-mobile-card img {
     width: 100%;
   }
-  .service-responsive-icon{
+  .service-responsive-icon {
     width: 40% !important;
   }
+  .stat-item:nth-child(2)::after {
+    display: none;
+  }
+  .stat-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .overlay-content h3 {
+    font-size: 36px;
+  }
   .stat-number {
-    font-size: 1.5rem;
+    font-size: 24px;
+  }
+  .stat-text {
+    font-size: 16px;
+  }
+  /* Banner Section */
+  .banner-section {
+    position: relative;
+    height: 1000px;
+    background: url("/images/skill_bg.png") no-repeat center center/cover;
+  }
+  .overlay-content {
+    background: rgba(1, 1, 1, 0.1);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 525px;
+    position: unset;
+    left: unset;
+    top: unset;
+    backdrop-filter: blur(10px);
   }
 }
 
@@ -230,11 +260,41 @@ body {
   .service-mobile-card img {
     width: 100%;
   }
-  .service-responsive-icon{
+  .service-responsive-icon {
     width: 40% !important;
   }
   .scroll-indicator {
     font-size: 0.625rem;
     padding: 10px 5px;
+  }
+  /* Banner Section */
+  .banner-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .overlay-content {
+    background: rgba(1, 1, 1, 0.1);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 525px;
+    position: unset;
+    left: unset;
+    top: unset;
+    backdrop-filter: blur(10px);
+  }
+  .stat-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .overlay-content h3 {
+    font-size: 36px;
+  }
+  .stat-number {
+    font-size: 24px;
+  }
+  .stat-text {
+    font-size: 16px;
   }
 }
