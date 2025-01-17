@@ -2,15 +2,31 @@
 body {
   font-family: "Libre Franklin", serif;
 }
-
+/* Top Bar  */
+.top-bar {
+  background-color: #0075ff;
+}
+.icons-size {
+  height: 36px;
+}
+/* Nav Bar  */
+.nav-bar {
+  background-color: #051229;
+  border-bottom: 1px solid #27354d;
+}
 .nav-item a {
   color: white;
   font-size: 1rem;
-  margin: 0 10px;
-  text-decoration: none;
   transition: color 0.3s ease;
 }
-
+.text-primary-color {
+  color: #0075ff !important;
+}
+.arrow-icon-style {
+  width: 24px;
+  height: 24px;
+  background-color: #0075ff;
+}
 /* Hero Section */
 .hero-section {
   background-color: #051229;
@@ -34,7 +50,6 @@ body {
   border-radius: 80%;
   border-bottom: none;
 }
-
 .hero-title {
   font-size: 3rem;
   font-weight: bold;
@@ -46,7 +61,6 @@ body {
 .hero-button {
   margin-top: 20px;
 }
-
 .play-video {
   position: absolute;
   top: 52%;
@@ -62,13 +76,14 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
 }
-
 .hero-image img {
   width: 100%;
   height: auto;
 }
-
-/* Scroll Indicator */
+.shape-2-position {
+  bottom: 100px;
+  left: 40%;
+}
 .scroll-indicator {
   position: absolute;
   left: 20px;
@@ -81,8 +96,16 @@ body {
   border-radius: 50px;
   padding: 20px 5px;
 }
-
+.scroll-indicator img {
+  width: 18px;
+  height: 18px;
+}
 /* Feature Card */
+.title-dot-style {
+  width: 4px;
+  height: 4px;
+  background-color: #0075ff;
+}
 .feature-card {
   border: 1px solid #ced7e0;
   padding: 20px 20px 0px 20px;
@@ -146,11 +169,11 @@ body {
 .stat-item:last-child::after {
   display: none;
 }
-/* Banner Section */
+/* Skill Banner Section */
 .banner-section {
   position: relative;
   height: 100vh;
-  background: url("/images/skill_bg.png") no-repeat center center/cover;
+  background: url("../images/skill_bg.png") no-repeat center center/cover;
 }
 .overlay-content {
   background: rgba(1, 1, 1, 0.1);
@@ -163,7 +186,6 @@ body {
   top: 30%;
   backdrop-filter: blur(10px);
 }
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
@@ -216,11 +238,10 @@ body {
   .stat-text {
     font-size: 16px;
   }
-  /* Banner Section */
   .banner-section {
-    position: relative;
-    height: 1000px;
-    background: url("/images/skill_bg.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .overlay-content {
     background: rgba(1, 1, 1, 0.1);
@@ -267,11 +288,10 @@ body {
     font-size: 0.625rem;
     padding: 10px 5px;
   }
-  /* Banner Section */
   .banner-section {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .overlay-content {
     background: rgba(1, 1, 1, 0.1);
