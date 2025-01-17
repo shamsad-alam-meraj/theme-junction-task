@@ -186,6 +186,66 @@ body {
   top: 30%;
   backdrop-filter: blur(10px);
 }
+.skill-subtitle {
+  color: #a9b0b8;
+}
+/* Progress Container */
+.progress-container {
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+.progress-title {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.progress-bar-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #e1e8f0;
+  position: relative;
+  overflow: visible !important;
+}
+.progress-fill {
+  height: 100%;
+  width: 90%;
+  background-color: #0075ff;
+  position: relative;
+  z-index: 0;
+}
+.progress-dot {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 4px solid #0075ff;
+  border-radius: 50%;
+  z-index: 1;
+}
+.progress-label {
+  font-size: 0.9rem;
+  color: white;
+  background-color: #0075ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  position: absolute;
+  left: 90%;
+  top: -20px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
