@@ -19,10 +19,10 @@ body {
   background-color: #051229;
   color: white;
   position: relative;
-  padding: 40px 20px;
+  display: inline-block;
+  padding: 60px 60px 0px 60px;
   border-radius: 0;
   overflow: hidden;
-  text-align: center;
 }
 .hero-section:after {
   content: "";
@@ -39,7 +39,7 @@ body {
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 .hero-subtitle {
@@ -75,20 +75,20 @@ body {
 .scroll-indicator {
   position: absolute;
   left: 20px;
-  bottom: 20px;
+  bottom: 40px;
   writing-mode: vertical-rl;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: #ddd;
   border: 1px solid #27354d;
   border-radius: 50px;
-  padding: 15px 5px;
+  padding: 20px 5px;
 }
 
 /* Feature Card */
 .feature-card {
   border: 1px solid #ced7e0;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   transition: box-shadow 0.3s ease;
   height: 100%;
 }
@@ -96,7 +96,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .feature-icon {
-  font-size: 2rem;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 .feature-title {
@@ -108,29 +108,47 @@ body {
   font-size: 0.9rem;
   color: #6c757d;
 }
-
+.round-div {
+  border-radius: 0 0 25% 0;
+}
 /* Stats Section */
 .stats-container {
   background-color: #f7f7f7;
 }
 .stat-item {
+  position: relative;
   text-align: center;
   border-right: 1px solid #ced7e0;
-  padding: 10px;
+  padding-bottom: 15px;
 }
 .stat-item:last-child {
   border-right: none;
 }
 .stat-number {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #051229;
 }
 .stat-text {
   font-size: 1rem;
   color: #364052;
+  line-height: 0;
+  margin-top: 2px;
 }
-
+.stat-item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  height: 8px;
+  width: 8px;
+  border: 2px solid #0075ff;
+  border-radius: 50%;
+}
+.stat-item:last-child::after {
+  display: none;
+}
 /* Banner Section */
 .banner-section {
   position: relative;
