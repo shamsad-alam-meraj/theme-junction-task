@@ -1,9 +1,6 @@
 /* General Styles */
 body {
-  background: #ffff;
-  color: #000;
   font-family: "Libre Franklin", serif;
-  overflow-x: hidden;
 }
 
 .nav-item a {
@@ -20,7 +17,7 @@ body {
   color: white;
   position: relative;
   display: inline-block;
-  padding: 60px 60px 0px 60px;
+  padding: 30px 60px 0px 60px;
   border-radius: 0;
   overflow: hidden;
 }
@@ -39,7 +36,7 @@ body {
 }
 
 .hero-title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .hero-subtitle {
@@ -52,11 +49,11 @@ body {
 
 .play-video {
   position: absolute;
-  top: 48%;
-  left: 16%;
+  top: 52%;
+  left: 21%;
   transform: translate(-50%, -50%);
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   color: white;
   display: flex;
@@ -176,9 +173,11 @@ body {
     font-size: 0.875rem;
   }
   .play-video {
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     font-size: 1rem;
+    top: 56%;
+    left: 26%;
   }
   .feature-card {
     padding: 15px;
