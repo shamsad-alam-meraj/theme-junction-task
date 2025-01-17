@@ -239,11 +239,22 @@ body {
   padding: 2px 6px;
   position: absolute;
   left: 90%;
-  top: -20px;
+  top: -25px;
   transform: translateX(-50%);
   white-space: nowrap;
 }
-
+.progress-label::after {
+  content: '';
+  position: absolute;
+  bottom: -6px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #0075ff;
+}
 .progress-fill-2 {
   height: 100%;
   width: 82%;
@@ -257,9 +268,21 @@ body {
   padding: 2px 6px;
   position: absolute;
   left: 82%;
-  top: -20px;
+  top: -25px;
   transform: translateX(-50%);
   white-space: nowrap;
+}
+.progress-label-2::after {
+  content: '';
+  position: absolute;
+  bottom: -6px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #0075ff;
 }
 
 /* Responsive Design */
