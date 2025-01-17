@@ -182,6 +182,15 @@ body {
   .feature-card {
     padding: 15px;
   }
+  .responsive-image {
+    width: 100% !important;
+  }
+  .challenge-title {
+    font-size: 20px !important;
+  }
+  .challenge-image2 {
+    top: -12% !important;
+  }
   .stat-number {
     font-size: 1.5rem;
   }
@@ -196,6 +205,15 @@ body {
   }
   .hero-subtitle {
     font-size: 0.75rem;
+  }
+  .responsive-image {
+    width: 100%;
+  }
+  .challenge-title {
+    font-size: 20px !important;
+  }
+  .challenge-image2 {
+    top: -12% !important;
   }
   .scroll-indicator {
     font-size: 0.625rem;
